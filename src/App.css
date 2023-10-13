@@ -1,0 +1,162 @@
+/* App.css */
+
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+main {
+  margin-top: 20px;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile h2 {
+  margin-top: 20px;
+  font-size: 32px;
+}
+
+.profile p {
+  font-size: 20px;
+  color: #666;
+}
+
+.about,
+.projects,
+contact {
+  margin-top: 30px;
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.projects .project {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.project p {
+  font-size: 18px;
+  color: #666;
+}
+
+.contact p {
+  font-size: 20px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #666;
+  font-size: 18px;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 36px;
+  }
+
+  nav h1 {
+    font-size: 32px;
+  }
+
+  .profile img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .profile h2 {
+    font-size: 28px;
+  }
+
+  .profile p {
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  .project h3 {
+    font-size: 24px;
+  }
+
+  .project p {
+    font-size: 16px;
+  }
+
+  .contact p {
+    font-size: 16px;
+  }
+
+  footer {
+    font-size: 16px;
+  }
+}
